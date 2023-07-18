@@ -229,7 +229,7 @@ public class SelectPicsActivity extends BaseActivity {
             PictureSelector.create(this).openGallery(selectMimeType)
                     .setImageEngine(GlideEngine.createGlideEngine())
                     .setSelectorUIStyle(pictureStyleUtil.getSelectorStyle())
-                    .setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT)
+                    .setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_FULL_USER)
                     .setRecordVideoMaxSecond(videoRecordMaxSecond.intValue())
                     .setRecordVideoMinSecond(videoRecordMinSecond.intValue())
                     .setLanguage(getLang(language))
